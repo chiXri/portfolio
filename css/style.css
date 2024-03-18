@@ -48,7 +48,7 @@ nav ul li a:hover {
     margin-right: 60px; /* Añado más margen entre elementos de la lista */
 }
 img {
-    position: absolute; /* Añadido para controlar el orden de apilamiento */  /* Ajusta la posición vertical */
+    position: absolute; 
     z-index: 0; /* Añadido para controlar el orden de apilamiento */
     margin-left: 32%;
     height: 800px;
@@ -68,7 +68,12 @@ img {
     font-size: 80px;
     font-weight: bold;
     margin-top: 10px;
-
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(62, 100, 215));/* degradado*/
+    background-clip: text; 
+    -webkit-background-clip: text;
+    color: transparent;
+    /* text-shadow: 0 0 3px rgb(255, 255, 255);  Agrega una sombra (marea)*/
+    filter: drop-shadow(0 0 3px rgba(81, 78, 78, 0.5)); /*Efecto sombra*/
 }
 .apellido1,.apellido2 {
     margin-top: -50px;
