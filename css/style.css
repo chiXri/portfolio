@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+header {
+    background-color: #121212;
+    padding: 20px 0;
+}
+
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: #aaa;
+}
+
+.container-menu {
+    width:40%;
+    margin: 0 auto;
+    text-align:right;
+
+}
+
+.container-menu ul li {
+    margin-right: 60px; /* Añado más margen entre elementos de la lista */
+}
+img {
+    position: absolute; /* Añadido para controlar el orden de apilamiento */  /* Ajusta la posición vertical */
+    z-index: 0; /* Añadido para controlar el orden de apilamiento */
+    margin-left: 32%;
+    height: 800px;
+    bottom: 200px;
+}
+.container-presentacion {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative; 
+    z-index: 1;
+    margin-top: 20vh;
+    height: 600px;
+}
+.nombre, .apellido1, .apellido2 {
+    font-family: 'Spartan', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+.apellido1,.apellido2 {
+    margin-top: -50px;
+}
+.subtitulo{
+    font-size: 20px;
+    margin-top: -20px;
+    font-weight: bold;
+
+}
+.btn-cv, .btn-contacto {
+    background-color: #0d47f5;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 280px;
+    height: 50px;
+}
+
+.btn-cv:hover, .btn-contacto:hover {
+    background-color: #416FFF; /* Cambia el color al pasar el ratón */
+}
+
+.container-personal {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 200px;
+    height: 700px;
+    justify-content: space-between;
+
+}
+.imagen-placeholder {
+    margin-left: 200px;
+    width: 250px; /* Ajusta el tamaño del contenedor según sea necesario */
+    height: 250px; /* Ajusta el tamaño del contenedor según sea necesario */
+    background-color: white; /* Color de fondo blanco */
+    border-radius: 10px;
+    margin-bottom: 300px;
+}
+
+.descripcion {
+    width: 700px;    
+    margin-right: 250px;
+    margin-bottom: 300px;
+}
+
+.descripcion p {
+    margin-top: 0;
+    font-family: 'poppins';
+    font-weight: normal;
+    color: #f9f9fa; /* Color del texto "Quién soy" */
+}
+
+
+
+/* Media queries para hacer la página responsive */
+
+@media screen and (max-width: 768px) {
+    .container-menu {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    nav ul li:last-child {
+        margin-bottom: 0;
+    }
+    
+    nav ul li a {
+        padding: 10px 15px; /* Ajuste del tamaño de las barras del menú */
+    }
+}
