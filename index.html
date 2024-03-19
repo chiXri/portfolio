@@ -13,7 +13,7 @@
         <nav>
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#personal">Sobre mí</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
@@ -21,31 +21,49 @@
     </div>
 </header>
 <main>
-    <img src="css/img/efectoLuz1.png" alt="Efecto deseado">         
-
-    <div class="container-presentacion">
+    <img class="efecto-luz" src="css/img/efectoLuz1.png" alt="Efecto deseado">         
+    <div class="estrella"></div>
+    <div id="inicio" style="position: absolute; top: 0;"></div> <!-- Agrego ete div inicio para que posicione la pagina arriba del todo. -->
+    <div id="presentacion" class="container-presentacion">
+        <div class="estrella"></div>
         <p class="saludo">Hola 👋🏽, soy</p>
         <h1 class="nombre">MARCO</h1>
         <h1 class="apellido1">CHIRINOS</h1>
         <h1 class="apellido2">AVENTIN</h1>
         <p class="subtitulo">Desarrollador Full Stack, apasionado por la programación.</p>
-
+        <div class="estrella"></div>
         <button class="btn-cv">DESCARGAR CV</i></button>
         <button class="btn-contacto">CONTÁCTAME </i></button>
     </div>
-    <div class="container-personal">
+    <div class="estrella"></div>
+    <div id="personal" class="container-personal">
+        <div class="info">
+            <div class="estrella"></div>
         <div class="imagen-placeholder"></div> <!-- Nuevo contenedor de imagen -->
         <div class="descripcion">
+            <div class="estrella"></div>
             <p>Quién soy</p>
             <h2>Sobre mí</h2>
-            <div class="underline"></div>
-            <p>Me encanta crear sitios web que te aporten una experiencia de usuario única y satisfactoria. Puedes ver algunos de mis proyectos en la sección de proyectos. 
-
-                Soy una persona autodidacta, responsable y comprometida con mi trabajo.
-                
+            <p>Me encanta crear sitios web que te aporten una experiencia de usuario única y satisfactoria. Puedes ver algunos de mis trabajos en la sección de proyectos.<br><br> Soy una persona autodidacta, responsable y comprometida con mi trabajo.<br><br> 
                 Constantemente estoy aprendiendo nuevas tecnologías y herramientas para mejorar mis habilidades. De bajo, puedes ver mis habilidades y tecnologías que uso.</p>
         </div>
+        <div class="estrella"></div>
     </div>
+    <div class="estrella"></div>
+    <div class="habilidades-container">
+            <h1>Habilidades</h1>
+            <div class="habilidades">
+                <div class="estrella"></div>
+                <div class="front">
+                    <img src="css/img/cuadroFront.png" alt="front">
+                </div>
+                <div class="back">
+                    <img src="css/img/cuadroBack-end.png" alt="front">
+                </div>
+            </div>
+        </div>
+    </div>
+    
 </main>
 
 
