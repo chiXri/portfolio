@@ -21,4 +21,3 @@ function retrocederProyecto() {
 document.querySelector('.siguiente').addEventListener('click', avanzarProyecto);
 document.querySelector('.anterior').addEventListener('click', retrocederProyecto);
 
-mostrarProyecto(index);

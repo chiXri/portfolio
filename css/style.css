@@ -8,6 +8,15 @@ body {
     color: #fff;
 
 }
+section{
+    height: 120vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+
+
+}
 
 header {
     background-color: #1e1e1e;
@@ -57,11 +66,9 @@ header nav ul li a:hover {
 
 .container-presentacion {
     text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
     position: relative;
-    margin-top: 20vh;
-    height: 600px;
+    margin-top: 200px;
+
 }
 
 .nombre, .apellido1, .apellido2 {
@@ -109,29 +116,17 @@ header nav ul li a:hover {
 
 .container-personal {
     display: flex;
-    align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 200px;
-    height: auto; /* Cambia la altura a auto para permitir que crezca según el contenido */
     justify-content: space-between;
     flex-direction: column; /* Cambia la dirección del flujo a columna */
 }
 
-.container-personal {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 200px;
-    height: auto; /* Cambia la altura a auto para permitir que crezca según el contenido */
-}
+
 .info{
     display: flex;
     width: 1000px;
     height: 340px;
-    margin-left:50px ;
+    margin-top: 200px;
+   
 }
 .imagen-placeholder {
     width: 250px;
@@ -165,49 +160,49 @@ header nav ul li a:hover {
     }
 }
 
-
+/*HABILIDADES*/
 .container-habilidades {
     display: flex;
     flex-direction: column;
-    margin-left: 70px;
-    margin-top: 50px;
 }
-
 
 .container-habilidades h1 {
     font-family: 'Poppins';
     color: rgb(123, 123, 123);
     font-size: 90px;
-    margin-left: 100px;
     filter: drop-shadow(0 0 3px rgba(255, 255, 255, 0.458)); /*Efecto sombra*/
+    margin-bottom: -30px;
+    margin-top: 200px;
+
 
 }
 .habilidades {
     display: flex;
     justify-content: space-between; /* Añade espacio entre las imágenes */
-    margin-top: -95px; /* Ajusta la posición hacia arriba */
 }
 
 .front img, .back img {
     width: 300px;
     height: 250px;
-    margin-left: 50px;
+}
+.front {
+    margin-right: 30px;
 }
 
 
 .container-proyectos {
-    
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 200px;  
-    height: auto;
+ 
+    display: flex;
+    flex-direction: column
+   
 }
 .container-proyectos h1{
     font-family: 'Poppins';
     color: rgb(255, 249, 249);
     font-size: 90px;
     filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.458)); /*Efecto sombra*/
-    margin-left: 350px;
+    margin-top: 150px;
+  
 }
 .carousel-proyectos {
     display: flex;
@@ -218,19 +213,17 @@ header nav ul li a:hover {
     padding-bottom: 20px; /* Agrega un poco de espacio en la parte inferior para la barra de desplazamiento */
  
     width: auto;
-    margin-top: 100px;
+    margin-top: 50px;
   
 }
 
 .container-contacto{
-    margin-top: 400px;
-    margin-left: 10%;
-    margin-right: 10%;
+    display: grid;
+    justify-content: right;
 }
 .formulario-contacto {
-    margin-left: 220px;
-    width: 60%;
-    padding: 20px; /* Espaciado interno */
+    width: 800px;
+    padding: 30px; /* Espaciado interno */
     background-color: #f4f4f4; /* Color de fondo */
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra */
